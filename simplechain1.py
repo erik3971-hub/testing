@@ -4,9 +4,9 @@ from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 import streamlit as st
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.globals import set_debug
+#from langchain_core.globals import set_debug
 
-set_debug(True)
+#set_debug(True)
 
 OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
 #OPENAI_API_KEY=""
